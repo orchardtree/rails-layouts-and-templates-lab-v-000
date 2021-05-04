@@ -2,6 +2,7 @@ class StoreAdminController < ApplicationController
   layout "admin"
 
   def invoice
+    render :layout => false
   end
 
   def orders
